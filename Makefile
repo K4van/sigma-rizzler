@@ -1,6 +1,6 @@
 CC ?= gcc
 CFLAGS = -Wall -Werror -O2
-SRC = sigma_rizzler.c
+SRC = sigma_rizzler.c sigma.c
 NAME = sigma
 
 all: build
