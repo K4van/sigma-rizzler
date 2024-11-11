@@ -11,3 +11,24 @@ void printLogo()
 
     puts(LOGO);
 }
+
+void printMenu()
+{
+    printf("(P)lay\n"
+           "(L)eaderboard\n"
+           "(E)xit\n");
+}
+
+void clearScreen() 
+{
+    printf(CLEAR_SCREEN_REGEX);
+}
+
+void authRegister()
+{
+
+}
+void printLeaderboard()
+{
+
+}
